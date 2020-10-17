@@ -1,0 +1,10 @@
+SQLite Path: gacha.db
+#Ticket droprate from monster excluding ravager (use number only, 0-100)
+Ticket Droprate: 30
+#Item list for gacha
+Itemlist Path: items.txt
+#Rarity percentage (0-100 integer), total must be 100
+N rate: 50
+R rate: 35
+SR rate: 10
+SSR rate: 5

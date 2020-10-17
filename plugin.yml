@@ -1,0 +1,20 @@
+name        : GachaPlugin
+main        : id.kuro.gacha.Main
+version     : 2.1.0
+api-version : 1.15
+description : Plugin for gacha system
+prefix      : GachaPlugin
+author      : kuroneko23
+website     : kuroneko23.my.id
+
+commands :
+   gacha :
+      description         : See tickets, do gacha
+      permissions         : GachaPlugin.gacha
+      permissions-message : You do not have the permission to use this command
+      usage               : "/<command> [amount]"
+      
+permissions :
+   GachaPlugin.gacha :
+      description  : Allow you to use /gacha command
+      default      : true
